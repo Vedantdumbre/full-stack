@@ -1,0 +1,26 @@
+*{
+    font-family: roboto;
+}.parent {
+  width: 60vh ;
+  height: 85vh;
+  padding: 10px;
+  background-color: rgb(211, 238, 243);
+  border-radius: 12px;
+}
+img{
+    width: 100%; /* Makes the image stretch to fit the width */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Slight rounding for aesthetics */
+    object-fit: cover; 
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+span{
+    color: grey;
+    padding-inline:15px ;
+    border: 1px solid rgb(182, 175, 175);
+    border-radius: 25px;
+}
+h3{
+    font-size:xx-large;
+}
