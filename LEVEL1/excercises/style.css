@@ -2,10 +2,10 @@
     font-family: roboto;
 }.parent {
   width: 60vh ;
-  height: 85vh;
+  height: 90vh;
   padding: 10px;
-  background-color: rgb(211, 238, 243);
   border-radius: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.6);
 }
 img{
     width: 100%; /* Makes the image stretch to fit the width */
@@ -13,7 +13,7 @@ img{
     border-radius: 8px; /* Slight rounding for aesthetics */
     object-fit: cover; 
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 span{
     color: grey;
@@ -23,4 +23,20 @@ span{
 }
 h3{
     font-size:xx-large;
+}
+p{
+    color: rgb(132, 125, 125);
+}
+button{
+    cursor: pointer;
+    color: rgb(3, 81, 248);
+    border: 2px transparent;
+    background-color: rgb(217, 226, 244);
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
