@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Variables in css</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        :root{
+             --first:rgb(55, 55, 231); /*by doing this we can easily add color to the the web page  */
+            --sec:rgb(95, 95, 133);
+        }
+        .nav1{
+            background-color: var(--first);  /*this is how we call the variables*/
+        }
+        .nav2{
+            background-color: var(--sec);
+        }
+    </style>
 </head>
 <body>
-    
+    <p class="nav1">Hello World!</p>
+    <br>
+    <p class="nav2">Hello World!</p>
 </body>
 </html>
