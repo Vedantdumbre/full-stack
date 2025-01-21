@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* media querie likhne ke liye ye expression ate hai 
+        
+        @media not|only mediatype and (expression) {
+        CSS-code;}
+        */
+      body {
+        background-color: rgb(218, 129, 129);
+      }
+
+      @media only screen and (max-width: 468px) {
+        
+        .boxes {
+        display: flex;
+         flex-direction: column; /*this is the exact way, how we can make a card wrap  */
+      }
+      }
+
+      .boxes {
+        display: flex;
+      }
+      .box {
+        width: 344px;
+        height: 344px;
+        background-color: greenyellow;
+        margin: 7px;
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
