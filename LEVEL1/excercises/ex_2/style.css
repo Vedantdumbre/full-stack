@@ -1,0 +1,17 @@
+:root{
+    --first:pink;
+    --second:yellow;
+    --third:rgb(59, 228, 59);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 10px 10px;
+    background-color: var(--third);
+    display: flex;
+    gap: 10px;
+}
