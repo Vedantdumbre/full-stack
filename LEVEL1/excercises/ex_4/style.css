@@ -1,0 +1,33 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+.parent{
+    display: flex;
+    justify-content: center; 
+       
+}
+.container{
+    border: 1px solid maroon;
+    padding: 30px 20px;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+}
+.logo{
+font-size: x-large;
+cursor: pointer;
+}
+.item-container{
+    display: flex;
+    font-size: medium;
+    gap: 50px;
+}
+.item{
+    cursor: pointer;
+    display: flex;
+}
