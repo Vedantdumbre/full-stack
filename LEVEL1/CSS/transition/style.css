@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.box{
+    height: 18vh;
+    width: 20vw;
+    background-color: rebeccapurple;
+    /* this is a lenghthy way to use transition property */
+    /* transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(1, 0.37, 0.58, 1);
+    transition-delay:0s ; */
+    /* this is a shorthand property or east way of writing transition property */
+    transition: transform 0.5s cubic-bezier(1, 0.37, 0.58, 1) 0s;
+        transform: translateX(10vw);
+}
