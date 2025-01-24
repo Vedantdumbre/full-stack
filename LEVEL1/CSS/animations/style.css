@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(173, 194, 79);
+  height: 80vh;
+  width: 100vw;
+}
+/* IMP topic use mdn to actually understand animation */
+.box {
+  background-color: yellow;
+  height: 12vh;
+  width: 12vw;
+  /* animation-name: key;
+  animation-duration: 2s;
+  animation-direction: revert-layer;
+  animation-iteration-count: infinite; */
+
+  /* Now this is the shortcut of the animation property */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode;  <-- this is the formula  */
+  animation: key 2s ease-in-out 0s infinite;
+}
+
+@keyframes key {
+  from {
+    transform: translateY(0vh);
+    background-color: yellow;
+  }
+  to {
+    transform: translateY(80vh);
+    background-color: red;
+  }
+}
