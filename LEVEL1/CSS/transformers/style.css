@@ -1,0 +1,22 @@
+/* watch codewith harry #42 sigma web development for better understanding*/
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 320px;
+    width: 320px;
+    background-color: beige;
+    border: 2px solid black;
+  /* transform: rotateZ(60deg);  hum rotate karte hai tab jo "axis" diya gaya hai "us axis pe hi" div rotate hoga */
+    /* transform: rotate(40deg); */
+    transform: skew(40deg) translate(100%) rotateY(40deg);    /*this is a way to actually write more transform properties for a single element */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
