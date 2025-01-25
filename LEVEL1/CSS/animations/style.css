@@ -20,7 +20,7 @@
 
   /* Now this is the shortcut of the animation property */
   /* animation: name duration timing-function delay iteration-count direction fill-mode;  <-- this is the formula  */
-  animation: key 2s ease-in-out 0s infinite;
+  animation: key 2s ease-in-out 0s infinite ;
 }
 
 @keyframes key {
