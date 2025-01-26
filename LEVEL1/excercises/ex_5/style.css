@@ -1,39 +1,25 @@
-*{
-    padding: 0;
-    font-family: roboto;
+* {
+  padding: 0;
+  font-family: roboto;
 }
-.container{
-    width: 80vw;
-    height: 80vh;
-    background-color: bisque;
-    position: relative;
+.container {
+  width: 80vw;
+  height: 80vh;
+  background-color: bisque;
+  position: relative;
 }
-.box{
-    width: 62px;
-    height: 62px;
-    border-radius: 70px;
-    background-color: red;
-    bottom : 0;
-    position: absolute;
-    animation: bounce 2s linear infinite;
-}
+.box {
+  width: 62px;
+  height: 62px;
+  border-radius: 70px;
+  background-color: red;
+  bottom: 0;
+  position: absolute;
+   animation:animateY 1s ease-out infinite alternate, animateX 2s linear infinite;
 
-@keyframes bounce {
-    /* 0%{
-        transform: translate(0,0);
-    }
-    25%{
-        transform: translate(25px,-90px);
-    }
-    50%{
-        transform: translate(50px,0);
-    }
-    75%{
-        transform: translate(75px,-90px);
-    }
-    100%{
-        transform: translate(100px,0);
-    } */
+}
+/* this is one of the methids for bouncing the ball */
+/* @keyframes bounce {
 
     0%{
         transform: translate(0,0);
@@ -68,4 +54,23 @@
     100%{
         transform: translate(150px,-90px);
     }
+} 
+*/
+
+/* this is a easy way to actually bounce a ball */
+@keyframes animateY {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+@keyframes animateX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
 }
