@@ -1,5 +1,5 @@
 function repeat(name) {
-    return("hey !"+ name);
+    return("hey !"+ name +   ",how are you?");
 
 }
 
