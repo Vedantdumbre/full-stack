@@ -4,7 +4,7 @@ function repeat(name) {
 }
 
 ans= repeat('john');
-console.log("the result is :",ans)
+console.log("The result is :",ans)
 
 // ARROw function in javascript
 
